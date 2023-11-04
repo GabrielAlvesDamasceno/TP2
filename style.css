@@ -1,0 +1,158 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 27% 120%;
+    grid-template-columns: 20% 80%;
+    gap: 3px 0px;
+    margin: 0%;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: rgb(255, 238, 0);
+}
+
+body ::selection,
+body::selection {
+    color: rgb(255, 255, 255);
+    background: gray;
+}
+
+header {
+    background-color: black;
+    margin-top: -2.5%;
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+header ul {
+    padding-left: 0%;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 200%;
+}
+
+header a:hover {
+    color: rgb(105, 105, 105);
+}
+
+header a:active {
+    color: black;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 186.1px;
+    width: 186.1px;
+    margin-top: 35px;
+    clear: none;
+    margin-left: -11%;
+}
+
+.pg-inicial-link {
+    margin-left: 19%;
+    font-size: 160%;
+}
+
+.titulo-pg {
+    font-size: 410%;
+    margin-left: 10%;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.interrogacao {
+    float: right;
+    position: sticky;
+    right: 1%;
+    top: 2%;
+}
+
+section{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: black;
+}
+
+main {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-top: 5%;
+    transition: background-color 0.5s ease;
+    border-radius: 30%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 300%;
+    margin-left: 15%;
+    width: 65%;
+}
+
+#b1 {
+   background-color: rgb(24, 94, 224); 
+   color: rgb(8, 48, 122);
+   border: 1px solid rgb(24, 94, 224);
+}
+
+#b1:hover {
+    background-color: rgb(24, 224, 74);
+    color: green;
+    border: 1px solid rgb(24, 224, 74);
+}
+
+#b2{
+    background-color: greenyellow;
+    border: 1px greenyellow;
+    color: green;
+}
+
+#b2:hover{
+    background-color: yellow;
+    color: rgb(102, 102, 4);
+    border: 1px solid yellow;
+}
+
+#b3{
+   background-color: #FFDE59;
+    border: 1px #FFDE59 solid;
+    color: #b18f07; 
+}
+
+#b3:hover{
+    background-color: #ffa908;
+    color: #94640c;
+    border: 1px #ffa908 solid;
+}
+
+#b4{
+    background-color: orange;
+    color: rgb(119, 81, 10);
+    border: 1px solid orange;
+}
+
+#b4:hover{
+    background-color: orangered;
+    color: rgb(97, 33, 10);
+    border: 1px solid orangered;
+}
+
+main img{
+    margin-top: 13px;
+    width: 500px;
+    height: 500px;
+}
