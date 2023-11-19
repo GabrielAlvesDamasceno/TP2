@@ -5,12 +5,12 @@ body {
 
 body {
     display: grid;
-    grid-template-rows: 27% 120%;
+    grid-template-rows: 52% 350%;
     grid-template-columns: 20% 80%;
     gap: 3px 0px;
     margin: 0%;
     font-family: 'Space Grotesk', sans-serif;
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(255, 196, 0);
 }
 
 body ::selection,
@@ -80,7 +80,7 @@ header a {
     top: 2%;
 }
 
-section{
+section {
     grid-row: 2/3;
     grid-column: 1/2;
     background-color: black;
@@ -96,62 +96,16 @@ button {
     display: block;
     margin-top: 5%;
     transition: background-color 0.5s ease;
-    border-radius: 30%;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 300%;
+    border-radius: 50%;
+    font-family: 'Shrikhand', cursive;
+    font-size: 200%;
     margin-left: 15%;
-    width: 65%;
+    width: 70%;
+    padding: 7%;
+    cursor: pointer;
 }
 
-#b1 {
-   background-color: rgb(24, 94, 224); 
-   color: rgb(8, 48, 122);
-   border: 1px solid rgb(24, 94, 224);
-}
-
-#b1:hover {
-    background-color: rgb(24, 224, 74);
-    color: green;
-    border: 1px solid rgb(24, 224, 74);
-}
-
-#b2{
-    background-color: greenyellow;
-    border: 1px greenyellow;
-    color: green;
-}
-
-#b2:hover{
-    background-color: yellow;
-    color: rgb(102, 102, 4);
-    border: 1px solid yellow;
-}
-
-#b3{
-   background-color: #FFDE59;
-    border: 1px #FFDE59 solid;
-    color: #b18f07; 
-}
-
-#b3:hover{
-    background-color: #ffa908;
-    color: #94640c;
-    border: 1px #ffa908 solid;
-}
-
-#b4{
-    background-color: orange;
-    color: rgb(119, 81, 10);
-    border: 1px solid orange;
-}
-
-#b4:hover{
-    background-color: orangered;
-    color: rgb(97, 33, 10);
-    border: 1px solid orangered;
-}
-
-main img{
+main img {
     margin-top: 13px;
     width: 500px;
     height: 500px;

@@ -1,21 +1,34 @@
-let bDeveresEl = document.querySelector("#b1");
-let bProvasEl = document.querySelector("#b2");
-let bLivrosEl = document.querySelector("#b3");
-let bCriadoresEl = document.querySelector("#b4");
-let botoesEl = document.querySelectorAll("button")
+let $bDeveresEl = $("#b1");
+let $bLivrosEl = $("#b2");
+let $bCriadoresEl = $("#b3");
+let $botoesEl = $("button");
 
-bCriadoresEl.addEventListener('click', function(){
+let $inputCor = $('.cor');
+let $body = $('body');
+
+let $bSalvar = $('.salvar');
+let $bCarregar = $('.carregar');
+
+$bCriadoresEl.click(function () {
     window.location.href = 'criadores.html'
 });
 
-bDeveresEl.addEventListener('click', function(){
+$bDeveresEl.click(function () {
     window.location.href = 'deveres.html'
 });
 
-bProvasEl.addEventListener('click', function(){
-    window.location.href = 'provas.html'
+$bLivrosEl.click(function () {
+    window.location.href = 'livros.html'
 });
 
-bLivrosEl.addEventListener('click', function(){
-    window.location.href = 'livros.html'
+$inputCor.change(function () {
+    $body.css('background-color', $inputCor.val());
+});
+
+$bSalvar.click(function () {
+    localStorage.setItem('cor', $inputCor.val());
+});
+
+$bCarregar.click(function () {
+    $body.css('background-color', localStorage.getItem('cor'));
 });

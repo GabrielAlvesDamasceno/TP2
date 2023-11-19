@@ -1,0 +1,149 @@
+#b1 {
+    background-color: rgb(24, 94, 224);
+    border: 1px solid rgb(24, 94, 224);
+}
+
+#b1:hover {
+    background-color: rgb(24, 224, 74);
+    border: 1px solid rgb(24, 224, 74);
+}
+
+#b2 {
+    background-color: greenyellow;
+    border: 1px greenyellow;
+}
+
+#b2:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+#b3 {
+    background-color: #FFDE59;
+    border: 1px #FFDE59 solid;
+}
+
+#b3:hover {
+    background-color: #ffa908;
+    border: 1px #ffa908 solid;
+}
+
+.salvar {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.salvar:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.carregar {
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+.carregar:hover {
+    background-color: rgb(37, 12, 146);
+    border: 1px solid rgb(37, 12, 146);
+}
+
+#biologia {
+    background-color: rgb(24, 94, 224);
+    border: 1px solid rgb(24, 94, 224);
+}
+
+#biologia:hover {
+    background-color: rgb(24, 224, 74);
+    border: 1px solid rgb(24, 224, 74);
+}
+
+#filosofia {
+    background-color: greenyellow;
+    border: 1px greenyellow;
+}
+
+#filosofia:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+#fisica {
+    background-color: #FFDE59;
+    border: 1px #FFDE59 solid;
+}
+
+#fisica:hover {
+    background-color: #ffa908;
+    border: 1px #ffa908 solid;
+}
+
+#geografia {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+#geografia:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+#historia {
+    background-color: red;
+    border: 1px solid red;
+}
+
+#historia:hover {
+    background-color: palevioletred;
+    border-color: palevioletred;
+}
+
+#idiomas {
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+}
+
+#idiomas:hover {
+    background-color: rgb(240, 188, 206);
+    border-color: rgb(240, 188, 206);
+}
+
+#matematica{
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+#matematica:hover{
+    background-color: rgb(37, 12, 146);
+    border: 1px solid rgb(37, 12, 146);
+}
+
+#portugues{
+    background-color: rgb(24, 94, 224);
+    border: 1px solid rgb(24, 94, 224);
+}
+
+#portugues:hover{
+    background-color: rgb(24, 224, 74);
+    border: 1px solid rgb(24, 224, 74);
+}
+
+#quimica{
+    background-color: greenyellow;
+    border: 1px greenyellow;
+}
+
+#quimica:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+#outros{
+    background-color: #FFDE59;
+    border: 1px #FFDE59 solid;
+}
+
+#outros:hover{
+    background-color: #ffa908;
+    border: 1px #ffa908 solid;
+}

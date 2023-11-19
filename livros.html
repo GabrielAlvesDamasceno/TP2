@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mordomo: livros</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="cores.css">
     <link rel="shortcut icon" href="imagens/mordomo_icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Space+Grotesk&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <ul>
@@ -24,13 +27,26 @@
         </ul>
     </header>
     <section>
-        <button id="novoB">Novo gênero +</button>
+        <button class="carregar">Carregar</button>
+        <button id="acao">Ação</button>
+        <button id="cientificos">Científicos</button>
+        <button id="comedia">Comédia</button>
+        <button id="drama">Drama</button>
+        <button id="fantasia">Fantasia</button>
+        <button id="ficcao">Ficção científica</button>
+        <button id="infantis">Infantis</button>
+        <button id="romance">Romance</button>
+        <button id="suspense">Suspense</button>
+        <button id="terror">Terror</button>
+        <button class="salvar">Salvar</button>
     </section>
     <main>
-
+        <img src="imagens/mordomo_background.png">
+        <label for="cor" class="label-cor">Cor de fundo:</label>
+        <input type="color" class="cor">
     </main>
-    <link rel="stylesheet" href="jquery-ui.min.css">
-    <script src="external/jquery/jquery.js"></script>
-    <script src="jquery-ui.min.js"></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="tp2.js"></script>
 </body>
+
 </html>

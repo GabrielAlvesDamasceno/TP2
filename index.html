@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mordomo</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="cores.css">
     <link rel="shortcut icon" href="imagens/mordomo_icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,17 +26,18 @@
         </ul>
     </header>
     <section>
+        <button class="carregar">Carregar</button>
         <button id="b1">Deveres</button>
-        <button id="b2">Provas</button>
-        <button id="b3">Livros</button>
-        <button id="b4">Criadores</button>
+        <button id="b2">Livros</button>
+        <button id="b3">Criadores</button>
+        <button class="salvar">Salvar</button>
     </section>
     <main>
         <img src="imagens/mordomo_background.png">
+        <label for="cor" class="label-cor">Cor de fundo:</label>
+        <input type="color" class="cor">
     </main>
-    <link rel="stylesheet" href="jquery-ui.min.css">
-    <script src="external/jquery/jquery.js"></script>
-    <script src="jquery-ui.min.js"></script>
+    <script src="jquery/jquery.js"></script>
     <script src="tp2.js"></script>
 </body>
 
