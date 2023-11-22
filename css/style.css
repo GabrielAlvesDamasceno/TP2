@@ -5,7 +5,7 @@ body {
 
 body {
     display: grid;
-    grid-template-rows: 52% 350%;
+    grid-template-rows: 30% 700%;
     grid-template-columns: 20% 80%;
     gap: 3px 0px;
     margin: 0%;
@@ -109,4 +109,26 @@ main img {
     margin-top: 13px;
     width: 500px;
     height: 500px;
+}
+
+#dever {
+    display: flex;
+}
+
+#dever input,
+#dever button {
+    outline: none;
+    border: none;
+}
+
+#novo-dever {
+    margin-left: 10%;
+    flex: 1;
+    height: 40px;
+}
+
+#incluir-dever {
+    flex: 4/1;
+    height: 20px;
+    width: 20px;
 }
