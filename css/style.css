@@ -169,17 +169,17 @@ main img {
     height: 500px;
 }
 
-#dever {
+main div {
     width: 100%;
 }
 
-#dever input {
+main div input[type=text] {
     outline: none;
     border: none;
     font-family: 'Space Grotesk', sans-serif;
 }
 
-#novo-dever {
+main div input[type=text] {
     flex: 1;
     height: 50px;
     font-size: 110%;
@@ -217,11 +217,16 @@ main img {
     animation: andando 2s ease-in 0s infinite alternate;
 }
 
-#lista-deveres {
+main ul {
     list-style: none;
     font-size: 130%;
 }
 
-input:checked{
-    text-decoration: underline;
+input[type=checkbox]
+{
+  -ms-transform: scale(2);
+  -moz-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2); 
+  transform: scale(2);
 }
