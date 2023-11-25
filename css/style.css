@@ -4,13 +4,30 @@ body {
 }
 
 body {
-    display: grid;
-    grid-template-rows: 30% 700%;
-    grid-template-columns: 20% 80%;
-    gap: 3px 0px;
     margin: 0%;
     font-family: 'Space Grotesk', sans-serif;
     background-color: rgb(255, 196, 0);
+}
+
+#body-index {
+    display: grid;
+    grid-template-rows: 30% 90%;
+    grid-template-columns: 20% 80%;
+    gap: 3px 0px;
+}
+
+#body-deveres {
+    display: grid;
+    grid-template-rows: 15% 90%;
+    grid-template-columns: 20% 80%;
+    gap: 3px 0px;
+}
+
+#body-livros {
+    display: grid;
+    grid-template-rows: 14% 90%;
+    grid-template-columns: 20% 80%;
+    gap: 3px 0px;
 }
 
 body ::selection,
@@ -24,6 +41,19 @@ header {
     margin-top: -2.5%;
     font-family: 'Shrikhand', cursive;
     color: white;
+}
+
+#header-index {
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+#header-deveres {
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+#header-livros {
     grid-row: 1/2;
     grid-column: 1/3;
 }
@@ -81,15 +111,43 @@ header a {
 }
 
 section {
-    grid-row: 2/3;
-    grid-column: 1/2;
     background-color: black;
 }
 
+#section-index {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#section-deveres {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#section-livros {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
 main {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 150%;
+}
+
+#main-index {
     grid-row: 2/3;
     grid-column: 2/3;
-    text-align: center;
+}
+
+#main-deveres {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#main-livros {
+    grid-row: 2/3;
+    grid-column: 2/3;
 }
 
 button {
@@ -112,23 +170,58 @@ main img {
 }
 
 #dever {
-    display: flex;
+    width: 100%;
 }
 
-#dever input,
-#dever button {
+#dever input {
     outline: none;
     border: none;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 #novo-dever {
-    margin-left: 10%;
     flex: 1;
-    height: 40px;
+    height: 50px;
+    font-size: 110%;
+    background-color: black;
+    color: antiquewhite;
+    padding-left: 16px;
+    padding-right: 14px;
 }
 
-#incluir-dever {
-    flex: 4/1;
-    height: 20px;
-    width: 20px;
+@keyframes girando {
+    to {
+        transform: rotate(-270deg);
+    }
+
+    from {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes andando {
+    to {
+        transform: translateX(50px);
+    }
+
+    from {
+        transform: translateX(-50px);
+    }
+}
+
+#valeu:hover {
+    animation: girando 5s ease-in 0s infinite alternate;
+}
+
+.mordomo {
+    animation: andando 2s ease-in 0s infinite alternate;
+}
+
+#lista-deveres {
+    list-style: none;
+    font-size: 130%;
+}
+
+input:checked{
+    text-decoration: underline;
 }

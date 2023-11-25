@@ -108,42 +108,142 @@
     border-color: rgb(240, 188, 206);
 }
 
-#matematica{
+#matematica {
     background-color: purple;
     border: 1px solid purple;
 }
 
-#matematica:hover{
+#matematica:hover {
     background-color: rgb(37, 12, 146);
     border: 1px solid rgb(37, 12, 146);
 }
 
-#portugues{
+#portugues {
     background-color: rgb(24, 94, 224);
     border: 1px solid rgb(24, 94, 224);
 }
 
-#portugues:hover{
+#portugues:hover {
     background-color: rgb(24, 224, 74);
     border: 1px solid rgb(24, 224, 74);
 }
 
-#quimica{
+#quimica {
     background-color: greenyellow;
     border: 1px greenyellow;
 }
 
-#quimica:hover{
+#quimica:hover {
     background-color: yellow;
     border: 1px solid yellow;
 }
 
-#outros{
+#outros {
     background-color: #FFDE59;
     border: 1px #FFDE59 solid;
 }
 
-#outros:hover{
+#outros:hover {
+    background-color: #ffa908;
+    border: 1px #ffa908 solid;
+}
+
+#outros-livros {
+    background-color: rgb(24, 94, 224);
+    border: 1px solid rgb(24, 94, 224);
+}
+
+#outros-livros:hover {
+    background-color: rgb(24, 224, 74);
+    border: 1px solid rgb(24, 224, 74);
+}
+
+#cientificos {
+    background-color: greenyellow;
+    border: 1px greenyellow;
+}
+
+#cientificos:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+#comedia {
+    background-color: #FFDE59;
+    border: 1px #FFDE59 solid;
+}
+
+#comedia:hover {
+    background-color: #ffa908;
+    border: 1px #ffa908 solid;
+}
+
+#drama {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+#drama:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+#fantasia {
+    background-color: red;
+    border: 1px solid red;
+}
+
+#fantasia:hover {
+    background-color: palevioletred;
+    border-color: palevioletred;
+}
+
+#ficcao {
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+}
+
+#ficcao:hover {
+    background-color: rgb(240, 188, 206);
+    border-color: rgb(240, 188, 206);
+}
+
+#infantis {
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+#infantis:hover {
+    background-color: rgb(37, 12, 146);
+    border: 1px solid rgb(37, 12, 146);
+}
+
+#romance {
+    background-color: rgb(24, 94, 224);
+    border: 1px solid rgb(24, 94, 224);
+}
+
+#romance:hover {
+    background-color: rgb(24, 224, 74);
+    border: 1px solid rgb(24, 224, 74);
+}
+
+#suspense {
+    background-color: greenyellow;
+    border: 1px greenyellow;
+}
+
+#suspense:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+#terror {
+    background-color: #FFDE59;
+    border: 1px #FFDE59 solid;
+}
+
+#terror:hover {
     background-color: #ffa908;
     border: 1px #ffa908 solid;
 }
